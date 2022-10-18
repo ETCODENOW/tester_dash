@@ -44,7 +44,7 @@ const app = new KApp({
     },
     externalPlatform: {
       name: 'test_dash',
-      website: 'https://test_dash.com',
+      website: 'https://tester-dash.onrender.com',
     },
   },
   screenshots: []

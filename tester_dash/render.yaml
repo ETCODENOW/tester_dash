@@ -1,7 +1,7 @@
 
 services:
   - type: web
-    name: test_dash
+    name: tester_dash
     env: node
     plan: free
     branch: main
@@ -11,7 +11,7 @@ services:
     startCommand: npm start
     envVars:
       - key: BASE_URL
-        value: https://dash-time.onrender.com
+        value: https://tester-dash.onrender.com
       - key: CLIENT_ID
         value: f40b3ac38af100e90dacf9c903637a5e
       - key: CLIENT_SECRET
